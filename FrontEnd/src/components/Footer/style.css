@@ -1,0 +1,26 @@
+.theFooterSec{
+    background-color: red;
+    overflow: hidden;
+    width: 100%;
+}
+
+.footerOne{
+    background-color: rgba(0, 0, 0, 0.623) ;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    z-index: 5;
+    color:white;
+    overflow: hidden;
+}
+.myRow{
+    padding-left:2%;
+    padding-right:2%;
+}
+.myBtnBook{
+    background: white !important;
+
+}
+.cod{
+    padding-top: 8px;
+}

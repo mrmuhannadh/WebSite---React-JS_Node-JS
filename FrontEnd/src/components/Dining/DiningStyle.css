@@ -1,0 +1,54 @@
+.theImageArea{
+    width: 100%;
+}
+.topImage{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.theType{
+    outline: 2px solid #b0986d;
+    outline-offset: 5px;
+    background: white;
+    
+}
+
+.theTypesRow{
+    padding-bottom:5%;
+}
+
+.diningImage{
+    object-fit: cover;
+    width: 100%;
+    min-width: 100%;
+
+}
+
+.theBox{
+    padding-top:5%;
+}
+
+.colFind{
+    padding-top: 5%;
+}
+
+
+
+
+.item{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  
+}
+
+.inner-carousel{
+    display: flex;
+    background: lightblue;
+}
+.carousel{
+    cursor: grab;
+    overflow: hidden ;
+}
+

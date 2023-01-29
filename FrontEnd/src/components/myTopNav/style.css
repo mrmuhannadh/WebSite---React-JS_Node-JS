@@ -1,0 +1,65 @@
+.booknow{
+    color:red;
+  }
+.navbarCustom{
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 500;
+  
+}
+
+.MobDiv{
+  background-color: rgb(0, 0, 0) !important;
+}
+.scrolledHeader{
+  transition: all 0.2s ease-in-out;
+  transition-timing-function: linear;
+  background: rgb(195, 195, 195) !important;
+}
+.myBtn{
+  border: 3px double #b0986d !important;
+  background: rgba(255, 255, 255,0) !important;
+  color: darkgreen!important;;
+  border-radius: 0px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.aa{
+  color:wheat;
+  text-decoration: none;
+}
+
+.navItem{
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active{
+  font-weight: bold;
+  color:darkgreen !important;
+}
+
+
+.navItem:hover{
+  color:darkgreen !important;
+  font-weight: 700;
+}
+
+
+.btnToTop{
+  position: fixed;
+  right:5%;
+  bottom:10%;
+  z-index:200;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  cursor: grab;
+}
+
+.whatappBtn{
+  position: fixed;
+  left:5%;
+  bottom:10%;
+  z-index:200;
+  cursor: grab;
+}

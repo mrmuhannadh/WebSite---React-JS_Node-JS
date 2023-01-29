@@ -1,0 +1,82 @@
+body {
+    overflow-x: hidden;
+}
+
+.theImage {
+    width: 100%;
+    max-width: 700px;
+    min-width: 700px;
+    max-height: 500px;
+    min-height: 500px;
+}
+
+.cate button:focus {
+    background: #b0986d;
+    color: #fff;
+    border-color: #fff !important;
+}
+
+.category-item {
+    border: 1px solid #b0986d;
+    color: #b0986d;
+    margin: 2% 1% 2% 1%;
+    padding: 1% 2% 1% 2%;
+    cursor: pointer;
+    text-align: center;
+
+    }
+
+.textArea {
+    border: 3px solid #b0986d;
+    color: #111110;
+    background: white;
+    position: absolute;
+    left: 80%;
+    bottom: 50%;
+    padding: 30% 10% 30% 10%;
+}
+
+.category-item:hover {
+    color: #fff;
+    background-color: #b0986d;
+
+}
+
+.ex {
+    padding-right: 30%;
+}
+
+.Exp {
+    display: block;
+}
+
+.Adv {
+    display: none;
+}
+
+
+.theNxtDinEx {
+    position: absolute;
+    right: 5%;
+    z-index: 150;
+}
+
+.theMobSet {
+    background: rgba(2, 0, 0, 0.432);
+    padding: 2% 2% 2% 2%;
+    color: white;
+}
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"]:checked + label{
+    background: #b0986d;
+    color: #fff;
+    border-color: #fff !important;
+  }
+/*Slider*/
+
+.sliderRow {
+    margin-top: 5%;
+    background: red;
+}

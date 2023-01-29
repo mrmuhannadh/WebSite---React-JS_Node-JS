@@ -1,0 +1,194 @@
+.theRow{
+    padding:5% 15% 5% 15%;
+    background-color: #fff;
+    outline: 2px solid #b0986d;
+    outline-offset: 5px;
+    border-radius: 3px;
+    width:80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 2% 5% 2% 5%;
+}
+
+.theTopic{
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+
+.headAccom{
+    padding-bottom:3%;
+}
+
+.box{
+    background-color: #fff;
+    z-index: 120;
+    overflow: auto;
+    outline: 2px solid #b0986d;
+    outline-offset: 5px;
+    text-align: center;
+    position: relative;
+    width: 50%;
+    color: #000;
+    padding: 2% 10% 2% 10%;
+    
+}
+.theSec{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:77%;
+    
+}
+.some{
+    background: #f4f1ef !important;
+    padding-bottom: 10%;
+    z-index: 150;
+    
+    
+}
+
+.thePrev{
+    position: absolute;
+    left:18%;
+    z-index: 150;
+}
+.theNxt{
+    position: absolute;
+    right: 18%;
+    z-index: 150;
+}
+
+
+
+.theDivMob{
+    height: 100px;
+    background-color: #fff;
+    z-index: 110;
+    overflow: hidden;
+    outline: 2px solid #b0986d;
+    outline-offset: 5px;
+    text-align: center;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.thePrevMob,.theNxtMob{
+    z-index: 120;
+}
+
+.theBtnController{
+    color:#b0986d;
+}
+
+.theContollerBox{
+    background: rgba(222, 213, 193, 0.91);
+    padding: 1% 1% 1% 1%;
+    width: 130px;
+    height: auto;
+}
+
+
+/*dinning*/
+.theDinningArea{
+    padding-top: 3%;
+}
+.theImg{
+    width: 60%;
+    height: 500px;
+}
+
+.info{
+    background-color: #fff;
+    z-index: 110;
+    color:black;
+    overflow: auto;
+    outline: 2px solid #b0986d;
+    outline-offset: 5px;
+    height: 400px;
+    width: 56%;
+    margin-left:60%;
+}
+
+.theNxtDin{
+    position: absolute;
+    right: 20%;
+    z-index: 150;
+}
+
+.theImageDiv{
+    padding-left: 5%;
+}
+
+
+
+/*Experience*/
+
+.exp{
+    padding-left:2%;
+    padding-right:2%;
+}
+.theExpSet{
+    padding-top:5%;
+    padding-bottom:3%;
+}
+
+.expImgArea{
+    outline: 2px solid #b0986d;
+    outline-offset: 5px;
+}
+
+.expImage{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.theData{
+    overflow: hidden;
+    position: absolute;
+    z-index: 160;
+    color: black;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: .5s;
+    
+}
+.imgArea:hover .theData{
+    transform: translateY(0);
+    opacity: 1;
+    background: rgba(153, 205, 50, 0) !important;
+}
+.imgArea:hover .expImage{
+    transition: .5s;
+    opacity: 0.5;
+    background: rgba(153, 205, 50, 0) !important;
+}
+/*Achievement CSS*/
+
+.theAchiList{
+    padding-top:5%;
+    padding-bottom:0%;
+}
+
+.imagesSection{
+    background: rgba(153, 205, 50, 0);
+}
+
+.theImgAchi{
+    object-fit: cover;
+    width: 50%;
+}
+
+.theContAchi{
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.mobTextSlider{
+    color: #000;
+}

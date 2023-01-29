@@ -1,0 +1,37 @@
+.loginNav{
+    background: rgb(255, 255, 255) ;
+    position: relative;
+
+}
+
+.theLogin{
+    background: white;
+    outline: 2px solid #b0986d;
+    outline-offset: 5px;
+    border-radius: 25px;
+    width: 90%;
+}
+.loginTopic{
+    padding-bottom: 2%;
+}
+
+.rrr{
+    background: red;
+    
+}
+
+.forgotPw{
+    color:black;
+    font-size: small;
+    text-decoration: none;
+}
+
+.forgotPw:hover{
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+.navItem{
+    color:black !important;
+}
+

@@ -1,0 +1,67 @@
+.galleryHeader {
+    margin-top: 3%;
+}
+
+.Dining {
+    display: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.ATM {
+    display: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.myRowImage {
+    margin-right: 1%;
+    margin-left: 1%;
+    overflow: hidden;
+}  
+ 
+.myColImage {
+    margin-top: 2%;
+    overflow: hidden;
+    max-height: 300px;
+    min-height: 300px;
+    padding: 0;
+
+}
+
+.theImage {
+  object-fit: cover;
+  
+}
+
+.modalBod {
+    background: transparent !important;
+    padding: 0%;
+}
+
+.closeMod {
+    position: absolute;
+    top: 0;
+    z-index: 160;
+    right: 0;
+    color: red;
+
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-5 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.8z'/%3E%3C/svg%3E") !important;
+    border-radius: 50%;
+    background: white;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.0 1.5 2.5 2.5-2.5 2.5 1.2 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    border-radius: 50%;
+    background: white;
+}
+
+.imgPreview{
+    width: auto;
+    max-height: 75vh;
+}
+

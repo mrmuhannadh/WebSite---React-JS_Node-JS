@@ -1,0 +1,32 @@
+.heading {
+    padding-top: 5%;
+
+}
+
+.sus,
+.awr,
+.csr {
+    padding: 0% 10% 10% 10%;
+}
+
+.awrDiv,
+.csrDiv {
+    display: none;
+}
+
+.theSliderSec {
+    padding-top: 3%;
+}
+
+.theImgBlog {
+    width: 100%;
+    object-fit: cover;
+}
+
+.rowForBod {
+    padding-top: 3%;
+    outline: 2px solid #b0986d;
+    outline-offset: 5px;
+    background: white;
+
+}

@@ -1,0 +1,82 @@
+.theFooterRow{
+    background: white;
+    padding-bottom:5%;
+    padding-top: 5%;
+
+    bottom: 0;
+    width:100%;
+}
+
+.footerLogo{
+    width:150px;
+    border-radius: 5px;
+}
+
+.linkFooter{
+    color:black;
+    text-decoration: none;
+}
+.linkFooter:hover{
+    color:darkgreen;
+    font-weight: 600;
+}
+.theIcon{
+    border: solid 1px #000;
+    border-radius: 50%;
+    padding: 10% 10% 10% 10%;
+}
+
+.theIcon:hover{
+
+}
+.theFirstRow{
+    padding-bottom:5%;
+}
+.theSecoundRow{
+    padding-bottom: 10%;
+}
+
+.whatIcon:hover{
+    background:#128c7e;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.instaIcon:hover{
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.youIcon:hover{
+    background: red;
+    color:white;
+    transition: ease-in-out 0.5s;
+}
+
+.tikIcon:hover{
+    background: black;
+    color:white;
+    transition: ease-in-out 0.5s;
+}
+
+.fbIcon:hover{
+    background: blue;
+    color:white;
+    transition: ease-in-out 0.5s;
+}
+
+.emailBox{
+    background: saddlebrown !important;
+    color:white;
+}
+
+.theLastRow{
+    font-size: small;
+    font-weight: bold;
+    padding:2% 1% 0% 1%;
+}
+

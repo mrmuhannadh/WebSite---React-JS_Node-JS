@@ -1,0 +1,106 @@
+/*AccTop*/
+.theImageArea{
+    width: 100%;
+   
+}
+
+.theTopImg{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/*iconSecoundRow*/
+/*The top area*/
+.theHeadingArea{
+    padding: 5% 5% 5% 5%;
+}
+
+.head{
+    padding-bottom: 2%;
+}
+
+.thePara{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.theIcons{
+    width: 50px;
+}
+
+/*The secound icon row*/
+.theSecoundIconRow{
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+.iconTwo{
+    width: auto;
+    height: 15px;
+    padding-right: 2%;
+}
+
+.theBack{
+    background: red;
+}
+
+/*The boxes*/
+.theCont{
+    padding: 5% 5% 5% 5%;
+}
+.theBoxSets{
+    outline: 2px solid #b0986d;
+    outline-offset: 5px;
+    margin-bottom: 5%;
+}
+
+.theImgInside{
+    width: 100%;
+    object-fit: cover;
+}
+
+.rightSideBox{
+    background: white !important;
+    padding-top: 5%;
+}
+
+.theTwoIconsSet{
+    padding:3% 0% 3% 0%;
+}
+
+.textSet{
+    padding: 2% 0% 5% 0%;
+}
+.exploreHead{
+    font-weight: bold;
+    color:#B54104;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+/*Map Modal*/
+.mapImage{
+    object-fit: cover;  
+    max-width: 100%;  
+}
+
+.imageInside{
+    width: 100%;
+    height: 100%;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-5 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.8z'/%3E%3C/svg%3E") !important;
+    border-radius: 50%;
+    background: white;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.0 1.5 2.5 2.5-2.5 2.5 1.2 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    border-radius: 50%;
+    background: white;
+}
+
+
+
+
+
